@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    border:none;
+    font-family:arial;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+    
+}
+
+.container{
+    max-width: 1140px;
+    padding:32px;
+    padding-top: 16px;
+    margin: 32px;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.fluid-image{
+    width:100%;
+}
+
+p{
+    margin-bottom:1em;
+}
+
+nav{
+    background-color: blue;
+    padding: 0.75em;
+    padding-left: 1em;
+    margin-top:1em;
+}
+nav a{
+    font-family: arial;
+    font-size:200%
+}
+
+
+.main-menu li{
+    display:inline;
+    margin-right:2em;
+    color: orange;
+}
+
+h1{
+    color:lightblue;
+}
+.page-header h2{
+    color:blue;
+}
+
+.page-header{
+    background-color: orange;
+    width:20%;
+}
+.page-main{
+    background-color: white
+}
+    
