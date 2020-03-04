@@ -16,7 +16,9 @@ body{
     padding:32px;
     padding-top: 16px;
     margin: 32px;
+    position: relative; /* acts as a ref point to positioned elements inside it */
 }
+
 
 .orange-color{
     color: orange;
@@ -46,6 +48,10 @@ nav a{
     display:inline;
     margin-right:2em;
     color: orange;
+    margin-bottom: 6px;
+    border-bottom: 6px;
+    
+    
 }
 
 h1{
@@ -56,9 +62,8 @@ h1{
 }
 
 .page-header{
-    background-color: orange;
-    width:20%;
-}
+    
+    
 .page-main{
     background-color: white
 }
